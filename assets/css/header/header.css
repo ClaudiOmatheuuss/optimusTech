@@ -28,14 +28,14 @@
 
 .header__links ul {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 32px;
     padding: 4px 0;
 }
 
 .header__links ul li a {
-    color: var(--gray-100);
+    color: var(--gray-500);
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-style: normal;
@@ -58,7 +58,7 @@
 }
 
 .header__button__enter {
-    color: var(--gray-100);
+    color: var(--gray-500);
     background: none;
     border: none;
 }
@@ -78,6 +78,7 @@
     }
 
     .header__links ul {
+        display: flex;
         flex-direction: row;
     }
 

@@ -1,7 +1,8 @@
 :root {
     --white-100: #fff;
 	--black-80: #3A404E;
-	--gray-100: #667085;
+	--gray-500: #667085;
+	--gray-900: #101828;
 	--red-100: #8E2424;
 	--fonte-padrao: Inter
 }

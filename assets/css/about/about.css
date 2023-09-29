@@ -1,12 +1,14 @@
 .about__section {
     box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
+    margin: 96px 0;
+    margin-top: 0px;
 }
 
 .about__content {
     align-items: center;
     display: flex;
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     flex-direction: column;
     gap: 16px;
     padding: 48px auto;
@@ -30,7 +32,7 @@
 
 .about__content p {
     color: var(--gray-500);
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
@@ -41,7 +43,6 @@
 @media screen and (min-width: 900px) {
     .about__content {
         gap: 24px;
-        padding: 96px auto;
     }
     
     

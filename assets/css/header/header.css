@@ -19,7 +19,7 @@
 
 .header__logo h2 {
     color: var(--black-80);
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -36,7 +36,7 @@
 
 .header__links ul li a {
     color: var(--gray-500);
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -50,7 +50,7 @@
 }
 
 .header__button__enter, .header__button__register {
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;

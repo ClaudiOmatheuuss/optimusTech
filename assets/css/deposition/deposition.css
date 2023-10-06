@@ -7,7 +7,7 @@
 .deposition {
     align-items: center;
     background: rgba(195, 25, 25, 0.03);
-    border-radius: 16px;
+    border-radius: 32px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -79,6 +79,7 @@
 
     .deposition {
         padding: 4rem;
+        border-radius: 16px;
     }
 
     .deposition__content h2 {
